@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+# Drybox
 
-You can use the [editor on GitHub](https://github.com/johnxeast/drybox/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Drybox is a preconfigured vagrant box. It comes with Docker, Kubernetes, Git, Jenkins, and Ansible.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Ubuntu 16.04
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Install
 
-```markdown
-Syntax highlighted code block
+Before you can use the box you need to have Virtualbox and Vagrant installed on your system.
 
-# Header 1
-## Header 2
-### Header 3
+##### Download Vagrant [here](https://www.vagrantup.com/).
 
-- Bulleted
-- List
+##### Download Virtualbox [here](https://www.virtualbox.org/wiki/Downloads).
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## Drybox Install
 
-[Link](url) and ![Image](src)
-```
+1. Make a new directory:
+   `mkdir drybox`
+   ![](images/drybox1.png)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+2. In the new directory run this command:
+   `vagrant init johnxeast/drybox`. This will create a file called '**Vagrantfile**' which is your vagrant config file. You can edit it as you wish.
+   ![](images/drybox2.png)
 
-### Jekyll Themes
+3. You can validate the '**Vagrantfile**' with `vagrant validate`
+   ![](images/drybox3.png)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/johnxeast/drybox/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
