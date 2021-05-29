@@ -13,6 +13,8 @@ Before you can use the box you need to have Virtualbox and Vagrant installed on 
 
 ##### Download Virtualbox [here](https://www.virtualbox.org/wiki/Downloads).
 
+##### Click [here](https://app.vagrantup.com/johnxeast/boxes/drybox) to see the box on Vagrant Cloud.
+
 
 ## Drybox Install
 
