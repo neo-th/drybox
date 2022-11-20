@@ -28,7 +28,7 @@ Before you can use the box you need to have Virtualbox and Vagrant installed on 
    
    <img src="images/drybox2.PNG">
 
-3. You can validate the '**Vagrantfile**' with `vagrant validate`. If everything is good it sound say "**Vagrantfile validated successfully.**"
+3. You can validate the '**Vagrantfile**' with `vagrant validate`. If everything is good it should say "**Vagrantfile validated successfully.**"
    
    <img src="images/drybox3.PNG">
 
